@@ -1,0 +1,28 @@
+.flex {
+    border: 10px solid black;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.flex__item {
+    padding: 20px;
+    background: teal;
+    color: white;
+    margin: 10px;
+    flex-basis: 50px;
+    flex-basis: 20%;
+}
+
+.flex__item--first {
+    
+}
+
+.flex__item--last {
+
+}
